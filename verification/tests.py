@@ -12,7 +12,7 @@ TESTS = {
     "Basics": [
         {"input": [10, 3], "answer": 1},
         {"input": [14, 4], "answer": 2},
-        {"input": [0, 1], "answer": 0},
+        {"input": [27, 4], "answer": 3},
         {"input": [10, 5], "answer": 0},
         {"input": [10, 1], "answer": 0},
         {"input": [5, 7], "answer": 5},
