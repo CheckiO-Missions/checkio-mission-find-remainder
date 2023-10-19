@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p>
+    Déterminez le reste de la division de deux entiers positifs. 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}find-reminder.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Données d'entrée:</strong> Deux entiers <span>({% if is_js %}number{% else %}int{% endif %})</span>: dividende (le nombre à diviser) et diviseur (le nombre par lequel la division doit être effectuée).
+</p>
+
+<p>
+   <strong>Sortie:</strong> Entier <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+
+    <strong>Comment l'utiliser:</strong>
+    <i>les calculs de restes sont courants dans les algorithmes, en particulier dans l'arithmétique modulaire qui est fréquemment utilisée en cryptographie et en infographie.</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Condition préalable:</strong>
+    <ul>
+    <li><i>dividende, diviseur &gt; 0.</i></li>
+    </ul>
+</p>
