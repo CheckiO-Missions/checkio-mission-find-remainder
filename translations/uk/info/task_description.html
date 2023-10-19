@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p>
+    Визначити остачу від ділення двох натуральних чисел. 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}find-reminder.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Два цілих числа <span>({% if is_js %}number{% else %}int{% endif %})</span>ділене (число, що ділиться) та дільник (число, на яке ділиться).
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> Ціле число <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+
+    <strong>Як використовується:</strong>
+    <i>обчислення залишку є поширеним в алгоритмах, особливо у модульній арифметиці, яка часто використовується у криптографії та комп'ютерній графіці.</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Умова:</strong>
+    <ul>
+    <li><i>ділене, дільник &gt; 0.</i></li>
+    </ul>
+</p>
