@@ -1,0 +1,81 @@
+<body data-author="freeman_lex">
+<div class="question-answer">
+    <div class="question">
+        Nie mam pojęcia, jak zacząć rozwiązywać tę misję.
+    </div>
+    <div class="answer">
+        <p>
+            Proszę złapać pomysł 💡! Rozwiązanie, które Państwu proponuję jest niezwykle proste. Proszę poczytać i użyć operatora modulo.
+        </p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Ok, od czego powinienem zacząć?
+    </div>
+    <div class="answer">
+        <p>
+            Proszę poczytać o operatorze <a target="_blank" href="https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/">modulo</a> i korzystać z niego!
+        </p>
+        <pre class="brush: python">
+remainder = dividend % divisor
+        </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Jak więc powinno wyglądać moje ostateczne rozwiązanie?
+    </div>
+    <div class="answer">
+        <p>
+            Wystarczy zawinąć kod w wyrażenie funkcyjne i zwrócić wynik lub całe wyrażenie. Zaleca się używanie podpowiedzi typu dla danych wejściowych i wyjściowych.
+        </p>
+        <p>Oto całe rozwiązanie:</p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def find_remainder(dividend: int, divisor: int) -> int:
+
+    return dividend % divisor
+        </pre>
+        </div>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Proszę pokazać mi więcej rozwiązań!<br />
+        bo chcę być prawdziwą 🥇 Python Ninnjaa!
+    </div>
+    <div class="answer">
+        <p>Jasne, proszę łapać!</p>
+        <p>
+            W tym rozwiązaniu używana jest rekurencja.
+        </p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def find_remainder(dividend: int, divisor: int) -> int:
+
+    if dividend < divisor: return dividend
+    
+    return find_remainder(dividend - divisor, divisor)
+        </pre>
+        </div>
+        <p>
+            Proszę użyć określonego operatora z wbudowanego modułu.
+        </p>
+        <div class="spoiler">
+        <pre class="brush: python">
+from operator import mod as find_remainder
+        </pre>
+        </div>
+        <p>Proszę kliknąć <b>Best Solutions</b> w menu misji i zobaczyć wiele innych ciekawych rozwiązań!</p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Dzięki! Teraz wiem i rozumiem więcej! Wszystko działa jak należy!
+    </div>
+    <div class="answer">
+        Miło mi to słyszeć 👍!
+    </div>
+</div>
+</body>
