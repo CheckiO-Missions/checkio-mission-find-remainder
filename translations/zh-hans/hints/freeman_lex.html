@@ -1,0 +1,81 @@
+<body data-author="freeman_lex">
+<div class="question-answer">
+    <div class="question">
+        我不知道如何开始解决这个任务。
+    </div>
+    <div class="answer">
+        <p>
+            出个主意💡！我给你提供的解决方案非常简单。只需阅读并使用调制运算符。
+        </p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        好吧，我应该从什么开始呢？
+    </div>
+    <div class="answer">
+        <p>
+            阅读<a target="_blank" href="https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/">modulo</a> 运算符并使用它！
+        </p>
+        <pre class="brush: python">
+remainder = dividend % divisor
+        </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        那么，我的最终解决方案应该是怎样的呢？
+    </div>
+    <div class="answer">
+        <p>
+            您只需将代码封装到函数表达式中，然后返回结果或整个表达式。强烈建议对输入和输出数据使用类型提示。
+        </p>
+        <p>以下是整个解决方案：</p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def find_remainder(dividend: int, divisor: int) -> int:
+
+    return dividend % divisor
+        </pre>
+        </div>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        告诉我更多解决方案！<br />
+        因为我想成为一个真正的 🥇 Python Ninnjaa！
+    </div>
+    <div class="answer">
+        <p>当然，抓紧时间！</p>
+        <p>
+            在这个解决方案中使用了递归。
+        </p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def find_remainder(dividend: int, divisor: int) -> int:
+
+    if dividend < divisor: return dividend
+    
+    return find_remainder(dividend - divisor, divisor)
+        </pre>
+        </div>
+        <p>
+            使用内置模块中的特定运算符。
+        </p>
+        <div class="spoiler">
+        <pre class="brush: python">
+from operator import mod as find_remainder
+        </pre>
+        </div>
+        <p>点击任务菜单中的<b>Best Solutions</b> ，查看更多有趣的解决方案！</p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        谢谢！我现在知道并理解得更多了！一切正常！
+    </div>
+    <div class="answer">
+        很高兴听到这个消息 👍！
+    </div>
+</div>
+</body>
