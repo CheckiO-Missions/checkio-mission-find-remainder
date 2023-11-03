@@ -1,0 +1,88 @@
+<body data-author="freeman_lex">
+<div class="question-answer">
+    <div class="question">
+        Ich habe keine Ahnung, wie ich mit der Lösung dieser Aufgabe beginnen soll.
+    </div>
+    <div class="answer">
+        <p>
+            Lassen Sie sich etwas einfallen 💡! Die Lösung, die ich Ihnen anbiete, ist ganz einfach. Lesen Sie einfach über den Modulo-Operator und verwenden Sie ihn.
+        </p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Ok, womit soll ich anfangen?
+    </div>
+    <div class="answer">
+        <p>
+            Lesen Sie über <a target="_blank" href="https://www.freecodecamp.org/news/javascript-modulo-operator-how-to-use-the-modulus-in-js/">modulus</a> operator und nutzen Sie es!
+        </p>
+        <pre class="brush: javascript">
+remainder = dividend % divisor;
+        </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Wie sollte also meine endgültige Lösung aussehen?
+    </div>
+    <div class="answer">
+        <p>
+            Sie müssen Ihren Code nur in einen Funktionsausdruck einpacken und das Ergebnis oder den gesamten Ausdruck zurückgeben. Die Verwendung von Typ-Hinweisen für Eingabe- und Ausgabedaten wird dringend empfohlen.
+        </p>
+        <p>Hier ist die gesamte Lösung:</p>
+        <div class="spoiler">
+        <pre class="brush: javascript">
+function findRemainder(dividend: number, divisor: number): number {
+
+    return dividend % divisor;
+}
+        </pre>
+        </div>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Zeigen Sie mir mehr Lösungen!<br />
+        denn ich möchte ein echter 🥇 Javascript-Held sein!
+    </div>
+    <div class="answer">
+        <p>Klar, schnappen Sie es sich!</p>
+        <p>
+            In dieser Lösung wird die Rekursion verwendet.
+        </p>
+        <div class="spoiler">
+        <pre class="brush: javascript">
+function findRemainder(dividend: number, divisor: number): number {
+
+    if (dividend < divisor) return dividend;
+    
+    return findRemainder(dividend - divisor, divisor);
+}
+        </pre>
+        </div>
+        <p>
+            Ermitteln Sie den Quotienten, multiplizieren Sie ihn mit dem Divisor und subtrahieren Sie ihn von der Dividende.
+        </p>
+        <div class="spoiler">
+        <pre class="brush: javascript">
+function findRemainder(dividend: number, divisor: number): number {
+
+    let quotient = Math.floor(dividend / divisor);
+    
+    return dividend - (quotient * divisor);
+}
+        </pre>
+        </div>
+        <p>Klicken Sie auf <b>Best Solutions</b> im Menü Mission und sehen Sie sich viele andere interessante Lösungen an!</p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Vielen Dank! Ich weiß und verstehe jetzt mehr! Alles funktioniert bestens!
+    </div>
+    <div class="answer">
+        Freut mich zu hören 👍!
+    </div>
+</div>
+</body>
