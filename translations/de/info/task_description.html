@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p>
+    Bestimmen Sie den Rest bei der Division von zwei positiven ganzen Zahlen. 
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}find-reminder.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Zwei ganze Zahlen <span>({% if is_js %}number{% else %}int{% endif %})</span>: Dividende (die zu dividierende Zahl) und Divisor (die Zahl, durch die dividiert werden soll).
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Ganzzahl <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+
+    <strong>Wie es verwendet wird:</strong>
+    <i>restberechnungen sind in Algorithmen üblich, insbesondere in der modularen Arithmetik, die häufig in der Kryptographie und Computergrafik verwendet wird.</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Vorbedingung:</strong>
+    <ul>
+    <li><i>dividend, Divisor &gt; 0.</i></li>
+    </ul>
+</p>
